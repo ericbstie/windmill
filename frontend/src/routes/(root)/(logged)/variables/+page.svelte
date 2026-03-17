@@ -479,7 +479,7 @@
 															]
 														: []),
 													{
-														displayName: owner ? 'Share' : 'See Permissions',
+														displayName: owner ? 'Manage access' : 'See Permissions',
 														action: () => {
 															shareModal?.openDrawer(path, 'variable')
 														},

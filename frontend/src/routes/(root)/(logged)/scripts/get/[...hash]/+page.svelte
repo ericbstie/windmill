@@ -495,7 +495,7 @@
 		})
 
 		menuItems.push({
-			label: 'Share',
+			label: 'Manage access',
 			Icon: Share,
 			onclick: () => {
 				shareModal?.openDrawer(script?.path ?? '', 'script')

@@ -574,7 +574,7 @@
 											href: `${base}/audit_logs?resource=${path}`
 										},
 										{
-											displayName: canWrite ? 'Share' : 'See Permissions',
+											displayName: canWrite ? 'Manage access' : 'See Permissions',
 											icon: Share,
 											action: () => {
 												shareModal?.openDrawer(path, 'postgres_trigger')

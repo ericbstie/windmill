@@ -451,7 +451,7 @@
 												}
 											},
 											{
-												displayName: canWrite ? 'Share' : 'See Permissions',
+												displayName: canWrite ? 'Manage access' : 'See Permissions',
 												icon: Share,
 												action: () => {
 													shareModal?.openDrawer(path, 'schedule')

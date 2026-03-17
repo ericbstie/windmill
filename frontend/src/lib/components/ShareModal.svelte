@@ -114,7 +114,7 @@
 </script>
 
 <Drawer bind:this={drawer}>
-	<DrawerContent title="Share {path}" on:close={drawer?.closeDrawer}>
+	<DrawerContent title="Manage access for {path}" on:close={drawer?.closeDrawer}>
 		<div class="flex flex-col gap-2">
 			<h1 class="text-sm font-semibold text-emphasis">{path}</h1>
 			<span class="text-xs font-semibold text-emphasis"

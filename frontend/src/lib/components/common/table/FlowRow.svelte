@@ -255,7 +255,7 @@
 						hide: $userStore?.operator
 					},
 					{
-						displayName: owner ? 'Share' : 'See Permissions',
+						displayName: owner ? 'Manage access' : 'See Permissions',
 						icon: Share,
 						action: () => {
 							shareModal.openDrawer && shareModal.openDrawer(path, 'flow')

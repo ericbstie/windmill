@@ -347,7 +347,7 @@
 		const menuItems: any = []
 
 		menuItems.push({
-			label: 'Share',
+			label: 'Manage access',
 			onclick: () => shareModal?.openDrawer(flow?.path ?? '', 'flow'),
 			Icon: Share,
 			disabled: !can_write

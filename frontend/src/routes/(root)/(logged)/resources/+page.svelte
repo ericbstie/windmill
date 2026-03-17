@@ -1069,7 +1069,7 @@
 												class="w-fit"
 												items={[
 													{
-														displayName: !canWrite ? 'View Permissions' : 'Share',
+														displayName: !canWrite ? 'View Permissions' : 'Manage access',
 														icon: Share,
 														action: () => {
 															shareModal?.openDrawer?.(path, 'resource')
