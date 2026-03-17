@@ -31,7 +31,7 @@
 		Eye,
 		Pen,
 		Plus,
-		Share,
+		Users,
 		Trash,
 		Circle,
 		FileUp,
@@ -524,7 +524,7 @@
 										},
 										{
 											displayName: canWrite ? 'Manage access' : 'See Permissions',
-											icon: Share,
+											icon: Users,
 											action: () => {
 												shareModal?.openDrawer(path, 'gcp_trigger')
 											}

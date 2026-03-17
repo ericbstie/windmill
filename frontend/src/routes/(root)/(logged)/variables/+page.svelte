@@ -33,7 +33,7 @@
 		Link,
 		Pen,
 		RefreshCw,
-		Share,
+		Users,
 		Trash,
 		Building,
 		DollarSign,
@@ -483,7 +483,7 @@
 														action: () => {
 															shareModal?.openDrawer(path, 'variable')
 														},
-														icon: Share
+														icon: Users
 													},
 													...(account != undefined
 														? [

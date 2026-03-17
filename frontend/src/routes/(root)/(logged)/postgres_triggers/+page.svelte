@@ -31,7 +31,7 @@
 		Eye,
 		Pen,
 		Plus,
-		Share,
+		Users,
 		Trash,
 		Circle,
 		Database,
@@ -575,7 +575,7 @@
 										},
 										{
 											displayName: canWrite ? 'Manage access' : 'See Permissions',
-											icon: Share,
+											icon: Users,
 											action: () => {
 												shareModal?.openDrawer(path, 'postgres_trigger')
 											}

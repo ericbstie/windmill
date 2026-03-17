@@ -61,7 +61,7 @@
 		Plus,
 		RotateCw,
 		Save,
-		Share,
+		Users,
 		Trash
 	} from 'lucide-svelte'
 	import { onMount, untrack } from 'svelte'
@@ -1070,7 +1070,7 @@
 												items={[
 													{
 														displayName: !canWrite ? 'View Permissions' : 'Manage access',
-														icon: Share,
+														icon: Users,
 														action: () => {
 															shareModal?.openDrawer?.(path, 'resource')
 														}

@@ -21,7 +21,7 @@
 		ChevronUpSquare,
 		History,
 		Pen,
-		Share,
+		Users,
 		Trash,
 		Copy
 	} from 'lucide-svelte'
@@ -218,7 +218,7 @@
 					},
 					{
 						displayName: canWrite ? 'Manage access' : 'See Permissions',
-						icon: Share,
+						icon: Users,
 						action: () => {
 							shareModal.openDrawer && shareModal.openDrawer(path, 'app')
 						},

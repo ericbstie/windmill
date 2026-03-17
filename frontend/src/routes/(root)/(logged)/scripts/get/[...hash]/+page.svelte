@@ -58,7 +58,7 @@
 		Loader2,
 		Pen,
 		ChevronUpSquare,
-		Share,
+		Users,
 		Trash,
 		Play,
 		ClipboardCopy,
@@ -496,7 +496,7 @@
 
 		menuItems.push({
 			label: 'Manage access',
-			Icon: Share,
+			Icon: Users,
 			onclick: () => {
 				shareModal?.openDrawer(script?.path ?? '', 'script')
 			}

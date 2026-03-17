@@ -28,7 +28,7 @@
 		Archive,
 		Trash,
 		ChevronUpSquare,
-		Share,
+		Users,
 		Loader2,
 		GitFork,
 		Play,
@@ -349,7 +349,7 @@
 		menuItems.push({
 			label: 'Manage access',
 			onclick: () => shareModal?.openDrawer(flow?.path ?? '', 'flow'),
-			Icon: Share,
+			Icon: Users,
 			disabled: !can_write
 		})
 

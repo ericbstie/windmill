@@ -7,7 +7,7 @@
 	import { workspaceStore } from '$lib/stores'
 	import Row from './Row.svelte'
 	import type DeployWorkspaceDrawer from '$lib/components/DeployWorkspaceDrawer.svelte'
-	import { Globe, Share } from 'lucide-svelte'
+	import { Globe, Users } from 'lucide-svelte'
 	import { isDeployable } from '$lib/utils_deployable'
 	import { getDeployUiSettings } from '$lib/components/home/deploy_ui'
 
@@ -62,7 +62,7 @@
 						: []),
 					{
 						displayName: canWrite ? 'Manage access' : 'See Permissions',
-						icon: Share,
+						icon: Users,
 						action: () => {
 							shareModal.openDrawer && shareModal.openDrawer(path, 'raw_app')
 						}

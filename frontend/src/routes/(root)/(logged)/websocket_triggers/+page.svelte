@@ -26,7 +26,7 @@
 	import ShareModal from '$lib/components/ShareModal.svelte'
 	import Toggle from '$lib/components/Toggle.svelte'
 	import { enterpriseLicense, usedTriggerKinds, userStore, workspaceStore } from '$lib/stores'
-	import { Unplug, Code, Eye, Pen, Plus, Share, Trash, Circle, FileUp, Pause } from 'lucide-svelte'
+	import { Unplug, Code, Eye, Pen, Plus, Users, Trash, Circle, FileUp, Pause } from 'lucide-svelte'
 	import { goto } from '$lib/navigation'
 	import SearchItems from '$lib/components/SearchItems.svelte'
 	import NoItemFound from '$lib/components/home/NoItemFound.svelte'
@@ -467,7 +467,7 @@
 										},
 										{
 											displayName: canWrite ? 'Manage access' : 'See Permissions',
-											icon: Share,
+											icon: Users,
 											action: () => {
 												shareModal?.openDrawer(path, 'websocket_trigger')
 											}

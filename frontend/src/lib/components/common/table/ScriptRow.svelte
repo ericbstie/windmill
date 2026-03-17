@@ -32,7 +32,7 @@
 		GitFork,
 		List,
 		Pen,
-		Share,
+		Users,
 		Trash,
 		History,
 		Globe2,
@@ -325,7 +325,7 @@
 					},
 					{
 						displayName: owner ? 'Manage access' : 'See Permissions',
-						icon: Share,
+						icon: Users,
 						action: () => {
 							shareModal.openDrawer && shareModal.openDrawer(script.path, 'script')
 						},

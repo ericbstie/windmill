@@ -38,7 +38,7 @@
 		Eye,
 		Pen,
 		Plus,
-		Share,
+		Users,
 		Trash,
 		FileUp,
 		ClipboardCopy,
@@ -469,7 +469,7 @@
 											},
 											{
 												displayName: canWrite ? 'Manage access' : 'See Permissions',
-												icon: Share,
+												icon: Users,
 												action: () => {
 													shareModal?.openDrawer(path, 'http_trigger')
 												}

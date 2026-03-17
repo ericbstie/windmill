@@ -26,7 +26,7 @@
 		FolderOpen,
 		ChevronUpSquare,
 		Calendar,
-		Share,
+		Users,
 		Archive,
 		Copy,
 		Eye,
@@ -256,7 +256,7 @@
 					},
 					{
 						displayName: owner ? 'Manage access' : 'See Permissions',
-						icon: Share,
+						icon: Users,
 						action: () => {
 							shareModal.openDrawer && shareModal.openDrawer(path, 'flow')
 						},
