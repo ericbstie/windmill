@@ -1,0 +1,21 @@
+services:
+  windmill_server:
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+    ports:
+      - "8000:8000"
+  # Reduce workers to save resources — only need the server for testing
+  windmill_worker:
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: 1024M
+  windmill_worker_native:
+    deploy:
+      replicas: 1
+      resources:
+        limits:
+          memory: 1024M
